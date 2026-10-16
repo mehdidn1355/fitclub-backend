@@ -1,10 +1,29 @@
+﻿# Python
 venv/
 __pycache__/
 *.pyc
 *.pyo
 *.db
+*.sqlite3
+fitclub.db
+
+# Environment
 .env
+
+# Uploads
+uploads/
+
+# IDE
 .vscode/
 .idea/
-*.sqlite3
-uploads/
+
+# OS
+.DS_Store
+*.log
+
+# اشتباهاً نصب‌شده
+node_modules/
+package.json
+package-lock.json
+create_all.py
+seed_orders.py
