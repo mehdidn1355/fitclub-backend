@@ -13,7 +13,7 @@ class ExerciseBase(BaseModel):
     default_sets: int = 3
     default_reps: int = 12
     rest_seconds: int = 60
-    equipment_needed: str = "none"
+    equipment_needed: str = "none"  # ← این خط مهمه
 
 
 class ExerciseResponse(ExerciseBase):
